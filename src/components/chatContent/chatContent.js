@@ -56,7 +56,7 @@ export default function ChatContent({ chats, setChats }) {
 
     setTimeout(() => {
       getJoke();
-    }, 1000);
+    }, 10000);
   };
 
   // Get API response
