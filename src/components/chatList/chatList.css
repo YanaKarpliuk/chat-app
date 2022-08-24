@@ -1,0 +1,150 @@
+.chatlist {
+  width: 40%;
+  border-right: var(--gray-border);
+  max-height: 100vh;
+}
+
+/*Chatlist top*/
+
+.chatlist-top {
+  padding-bottom: 20px;
+  border-bottom: var(--gray-border);;
+}
+
+.main-icon {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.icon-section{
+  padding: 20px 20px 0 20px;
+  margin-bottom: 30px;
+}
+
+.chatlist-search {
+  padding: 0 20px;
+}
+
+.chatlist-input {
+  font-size: 16px;
+  background-color: var(--light-gray-bg-color);
+  border-radius: 25px;
+  border: var(--gray-border);
+  background-image: url(../images/magnifying_glass_icon.svg);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 16px;
+  padding: 15px 15px 15px 35px;
+  width: 100%;
+  outline: none;
+}
+
+.chatlist-input:focus {
+  background-color: white;
+}
+
+/*Chatlist bottom*/
+
+.chatlist-bottom > .chatlist-main {
+  background-color: #fff;
+  height: calc(100vh - 161px);
+  overflow: hidden;
+}
+
+.chatlist-heading {
+  color: #438AA6;
+  font-weight: 400;
+  padding: 40px 10px 0px 20px;
+}
+
+.chatlist-items {
+  margin-top: 30px;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.chatlist-item {
+  display: flex;
+  border-bottom: var(--gray-border);
+  padding-bottom: 10px;
+  cursor: pointer;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.chatlist-item:first-child {
+  margin-top: 0;
+}
+
+.chatlist-item:last-child {
+  margin-bottom: 100px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+
+  margin-right: 20px;
+  position: relative;
+}
+.avatar img {
+  min-width: 40px;
+  min-height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.user-meta {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.user-meta-name {
+  margin: 0px 0 5px 0;
+  padding: 0;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.user-meta-msg {
+  margin: 0;
+  padding: 0;
+  color: #a7a4a4;
+  font-weight: 400;
+  font-size: 15px;
+  display: block;
+  max-width: 400px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.user-meta-date {
+  margin: 0;
+  padding: 0;
+  color: rgb(80, 80, 80);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.chatlist-item:hover,
+.chatlist-item.active {
+  background: var(--gray-bg-color);
+}
+.isOnline {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  bottom: -5px;
+  right: -5px;
+  border-radius: 50%;
+  background-image: url(../images/online.svg);
+  background-repeat: no-repeat;
+  background-size: 15px;
+}

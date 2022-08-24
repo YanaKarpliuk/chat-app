@@ -1,0 +1,144 @@
+.main-chatcontent {
+  flex-grow: 1;
+  max-width: 63%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-sections {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Header*/
+.content-header {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: var(--gray-border);
+  flex-shrink: 0;
+}
+
+.current-chatting-user {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.current-chatting-user-name {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* Body*/
+
+.content-body {
+  padding: 20px 20px 0 20px;
+  height: calc(100vh - 76px - 149px);
+  overflow: auto;
+  background-color: var(--light-gray-bg-color);
+}
+
+.chat-item {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+.chat-item .avatar {
+  display: none;
+}
+
+.chat-item-content {
+  background-color: #E0E0E0;
+  color: rgb(24, 24, 24);
+  padding: 15px;
+  border-radius: 23px;
+  max-width: 615px;
+}
+
+.chat-content-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chat-item.received > .chat-content-meta {
+  align-items: flex-start;
+}
+
+.chat-meta {
+  font-size: 14px;
+  color: #afaeae;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+.chat-msg {
+  line-break: normal;
+}
+
+.chat-item.received {
+  flex-direction: row-reverse;
+  transform-origin: left;
+}
+
+.chat-item.received .chat-item-content {
+  background-color: #3C4154;
+  color: #fff;
+  border-radius: 23px;
+}
+
+.chat-item.received .avatar {
+  display: block;
+  margin-right: 20px;
+  margin-left: 0px;
+}
+
+/*Footer*/
+.content-footer {
+  border-top: var(--gray-border);
+  padding: 40px 20px 48px 20px;
+}
+
+.content-footer form {
+  display: flex;
+}
+
+#chattextbox {
+  font-size: 16px;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  border: var(--gray-border);
+  flex-grow: 1;
+  padding: 20px 80px 20px 20px;
+  outline: none;
+}
+
+.sendMsgBtn {
+  position: absolute;
+  right: 40px;
+  bottom: 61px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.88, 0.19, 0.37, 1.11);
+  border: none;
+  background-color: transparent;
+}
+
+.sendMsgBtn > img {
+  width: 25px;
+}
+
+.sendMsgBtn:hover {
+  transform: scale(1.1);
+}
+
+.chat-item > .avatar > .isOnline {
+  display: none;
+}
