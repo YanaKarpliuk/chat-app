@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.9714615d.css",
-    "main.js": "/static/js/main.e84acf36.js",
-    "static/js/787.c6b4871e.chunk.js": "/static/js/787.c6b4871e.chunk.js",
-    "static/media/zerov.jpg": "/static/media/zerov.7e5f197c3cf5c1ea53a7.jpg",
-    "static/media/lesia.png": "/static/media/lesia.5ce597d9981a8120bd10.png",
-    "static/media/stus.png": "/static/media/stus.1b6e9a1c6329cf972424.png",
-    "static/media/oles.jpg": "/static/media/oles.8872895e54f7de756821.jpg",
-    "static/media/tarasSh.jpg": "/static/media/tarasSh.dfcc7f4900390ee73074.jpg",
-    "static/media/symonenko.jpg": "/static/media/symonenko.80f214216a1810518140.jpg",
-    "static/media/markian.jpg": "/static/media/markian.6e5792d3b544cc3b10f8.jpg",
-    "static/media/franko.jpg": "/static/media/franko.e9e720de0d4322796b34.jpg",
-    "static/media/lina.png": "/static/media/lina.b9011bb15587db324b0c.png",
-    "static/media/petro.jpg": "/static/media/petro.dfd8f1af95138a566337.jpg",
-    "static/media/rykskyi.png": "/static/media/rykskyi.bf30eb46b2e30c9d1a6b.png",
-    "static/media/online.svg": "/static/media/online.8ae9fc4dac670dcba3a1.svg",
-    "static/media/magnifying_glass_icon.svg": "/static/media/magnifying_glass_icon.244d82f0ec828a744091.svg",
-    "static/media/send.svg": "/static/media/send.80298bcda16383cd0abe3b15359d4d55.svg",
-    "index.html": "/index.html",
-    "main.9714615d.css.map": "/static/css/main.9714615d.css.map",
-    "main.e84acf36.js.map": "/static/js/main.e84acf36.js.map",
-    "787.c6b4871e.chunk.js.map": "/static/js/787.c6b4871e.chunk.js.map"
+    "main.css": "/chat-app/static/css/main.f938bcdc.css",
+    "main.js": "/chat-app/static/js/main.05213aae.js",
+    "static/js/787.c6b4871e.chunk.js": "/chat-app/static/js/787.c6b4871e.chunk.js",
+    "static/media/zerov.jpg": "/chat-app/static/media/zerov.7e5f197c3cf5c1ea53a7.jpg",
+    "static/media/lesia.png": "/chat-app/static/media/lesia.5ce597d9981a8120bd10.png",
+    "static/media/stus.png": "/chat-app/static/media/stus.1b6e9a1c6329cf972424.png",
+    "static/media/oles.jpg": "/chat-app/static/media/oles.8872895e54f7de756821.jpg",
+    "static/media/tarasSh.jpg": "/chat-app/static/media/tarasSh.dfcc7f4900390ee73074.jpg",
+    "static/media/symonenko.jpg": "/chat-app/static/media/symonenko.80f214216a1810518140.jpg",
+    "static/media/markian.jpg": "/chat-app/static/media/markian.6e5792d3b544cc3b10f8.jpg",
+    "static/media/franko.jpg": "/chat-app/static/media/franko.e9e720de0d4322796b34.jpg",
+    "static/media/lina.png": "/chat-app/static/media/lina.b9011bb15587db324b0c.png",
+    "static/media/petro.jpg": "/chat-app/static/media/petro.dfd8f1af95138a566337.jpg",
+    "static/media/rykskyi.png": "/chat-app/static/media/rykskyi.bf30eb46b2e30c9d1a6b.png",
+    "static/media/online.svg": "/chat-app/static/media/online.8ae9fc4dac670dcba3a1.svg",
+    "static/media/magnifying_glass_icon.svg": "/chat-app/static/media/magnifying_glass_icon.244d82f0ec828a744091.svg",
+    "static/media/send.svg": "/chat-app/static/media/send.80298bcda16383cd0abe3b15359d4d55.svg",
+    "index.html": "/chat-app/index.html",
+    "main.f938bcdc.css.map": "/chat-app/static/css/main.f938bcdc.css.map",
+    "main.05213aae.js.map": "/chat-app/static/js/main.05213aae.js.map",
+    "787.c6b4871e.chunk.js.map": "/chat-app/static/js/787.c6b4871e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9714615d.css",
-    "static/js/main.e84acf36.js"
+    "static/css/main.f938bcdc.css",
+    "static/js/main.05213aae.js"
   ]
 }
