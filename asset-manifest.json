@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9714615d.css",
+    "main.js": "/static/js/main.e84acf36.js",
+    "static/js/787.c6b4871e.chunk.js": "/static/js/787.c6b4871e.chunk.js",
+    "static/media/zerov.jpg": "/static/media/zerov.7e5f197c3cf5c1ea53a7.jpg",
+    "static/media/lesia.png": "/static/media/lesia.5ce597d9981a8120bd10.png",
+    "static/media/stus.png": "/static/media/stus.1b6e9a1c6329cf972424.png",
+    "static/media/oles.jpg": "/static/media/oles.8872895e54f7de756821.jpg",
+    "static/media/tarasSh.jpg": "/static/media/tarasSh.dfcc7f4900390ee73074.jpg",
+    "static/media/symonenko.jpg": "/static/media/symonenko.80f214216a1810518140.jpg",
+    "static/media/markian.jpg": "/static/media/markian.6e5792d3b544cc3b10f8.jpg",
+    "static/media/franko.jpg": "/static/media/franko.e9e720de0d4322796b34.jpg",
+    "static/media/lina.png": "/static/media/lina.b9011bb15587db324b0c.png",
+    "static/media/petro.jpg": "/static/media/petro.dfd8f1af95138a566337.jpg",
+    "static/media/rykskyi.png": "/static/media/rykskyi.bf30eb46b2e30c9d1a6b.png",
+    "static/media/online.svg": "/static/media/online.8ae9fc4dac670dcba3a1.svg",
+    "static/media/magnifying_glass_icon.svg": "/static/media/magnifying_glass_icon.244d82f0ec828a744091.svg",
+    "static/media/send.svg": "/static/media/send.80298bcda16383cd0abe3b15359d4d55.svg",
+    "index.html": "/index.html",
+    "main.9714615d.css.map": "/static/css/main.9714615d.css.map",
+    "main.e84acf36.js.map": "/static/js/main.e84acf36.js.map",
+    "787.c6b4871e.chunk.js.map": "/static/js/787.c6b4871e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9714615d.css",
+    "static/js/main.e84acf36.js"
+  ]
+}
